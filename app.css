@@ -1,0 +1,47 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.card{
+    width: 400px;
+    margin: 50px auto;
+}
+body{
+    background: whitesmoke;
+}
+.content{
+    width: 400px;
+    position: relative;
+    padding-top: 20px;
+    background: #fff;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    border-radius: 5px;
+    background: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.may{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    color: gray;
+    width: 400px;
+}
